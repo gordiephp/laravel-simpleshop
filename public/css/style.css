@@ -1,0 +1,60 @@
+#search{
+    display: block;
+   /* text-align: center;*/
+}
+
+body {
+    background-color: #1B1B1B;
+}
+
+.thumbnail a > img {
+    max-height: 250px;
+}
+
+.centered {
+    text-align: center;   
+}
+
+.navbar {
+    font-weight: bold;
+    
+}
+
+.nav.navbar-nav.navbar-right li a {
+    /*color: ;*/
+}
+
+.navbar-brand
+{
+    font-size: 25px;
+     /*color: white !important;*/
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: black;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.label-success {
+    font-size: 18px; 
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+    font-size: 16px; 
+}
+
+.table > tbody > tr > td > input[type="text"]
+{
+    font-size:16px;
+}
